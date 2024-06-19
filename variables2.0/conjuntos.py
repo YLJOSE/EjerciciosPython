@@ -4,7 +4,7 @@ conjunto = set(["dato1","dato2",("tupla1","tupla2")])
 print(conjunto)
 # meter un conjunto dentro de otro conjunto
 conjunto_uno = frozenset(["dato1","dato2"])
-conjunto_dos = {conjunto,"dato3"}
+conjunto_dos = {conjunto_uno,"dato3"}
 print(conjunto_dos)
 # teoria de conjuntos
 conjunto1 = {1,3,5,7}
