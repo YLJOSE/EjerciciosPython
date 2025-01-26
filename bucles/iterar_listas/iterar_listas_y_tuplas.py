@@ -6,11 +6,13 @@ numeros = [1,2,3,4]
 for numero in numeros:
     resultado = numero * 10
     print(resultado)
+print("------------------")
 # para realizar el for anidado las listas deben tener la miscantidad de elementos
 # iterando con dos listas utilizando el metodo zip()
 for numero,animal in zip(animales, numeros):
     print(numero)
     print(animal)
+print("-------------------")
 # iterando con for in range()
 for i in range(10):
     print(i)
