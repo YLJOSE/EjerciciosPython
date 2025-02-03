@@ -18,3 +18,4 @@ print(diccionario)
 # eliminar todos los elementos del diccionario o lista
 diccionario.clear()
 print(diccionario)
+ 

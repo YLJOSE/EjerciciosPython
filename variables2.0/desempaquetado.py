@@ -6,3 +6,5 @@ print(nombre)
 print(apellido)
 print(edad)
 
+for i in range(20):
+    print(i)

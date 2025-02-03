@@ -26,6 +26,8 @@ enemigos = []
 
 enemigos.append(Enemigo(ANCHO/2, 100))
 
+# se le agregó para poder mover el personaje con las flechas
+
 def gestionar_teclas(teclas):
     if teclas[pygame.K_w]:
         cubo.y -= cubo.velocidad
@@ -35,6 +37,14 @@ def gestionar_teclas(teclas):
         cubo.x -= cubo.velocidad
     if teclas[pygame.K_d]:
         cubo.x += cubo.velocidad
+    if teclas[pygame.K_DOWN]:
+        cubo.y += cubo.velocidad
+    if teclas[pygame.K_RIGHT]:
+        cubo.x += cubo.velocidad
+    if teclas[pygame.K_LEFT]:
+        cubo.x -= cubo.velocidad
+    if teclas[pygame.K_UP]:
+        cubo.y -= cubo.velocidad
 
 
 while jugando:

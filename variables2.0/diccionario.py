@@ -8,7 +8,7 @@ print(diccionario)
 #}
 # las listas no pueden ser claves, las tuplas si
 
-# crear diccionarios, las listas no pueden ser claves y usamosfrozemset para meter cnjuntos 
+# crear diccionarios, las listas no pueden ser claves y usamosfrozemset para meter conjuntos 
 diccionario_dos = {frozenset(["junjo", "rojas"]) ,"jajaja"}
 print(diccionario_dos)
 # diccionario fromkeys() con valor por defecto : none
