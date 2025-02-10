@@ -14,14 +14,14 @@ def devolver_fichero_unido(nombre_archivo,nombre_archivo_dos):
             union += texto_dos
             
         print(union) 
-        with open('overlapping.txt','rw', encoding='utf-8') as fichero_final:
+        with open('Ejercicios/overlapping.txt','w', encoding='utf-8') as fichero_final:
             fichero_final.write(union)
-            texto_tres = fichero_final.read()
-            print(texto_tres)
+           # texto_tres = fichero_final.read()
+           # print(texto_tres)
         
     except FileNotFoundError:
         print("El archivo no se encontró.")
         return None
     
 
-devolver_fichero_unido("C:/Users/ALUMNO CCC - TARDE/Desktop/AD/primenumbers.txt","C:/Users/ALUMNO CCC - TARDE/Desktop/AD/happynumbers.txt")
+devolver_fichero_unido("Ejercicios/primenumbers.txt","Ejercicios/happynumbers.txt")
