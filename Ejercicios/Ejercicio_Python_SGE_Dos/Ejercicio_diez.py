@@ -3,7 +3,6 @@
 #Un método mover(x,y), que mueva las coordenadas
 #Un método distancia(p,q) que muestre la distancia entre p y q.
 #  Pista: La distancia entre dos puntos se representa por este ecuación
-import math
 
 class punto:
     def __init__(self):
