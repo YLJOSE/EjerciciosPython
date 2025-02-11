@@ -15,7 +15,7 @@ def contar_letras_y_vocales(nombre_archivo):
         print("El archivo no se encontró.")
         return None
 
-archivo = "texto.txt" 
+archivo = "Ejercicios\primenumbers.txt" 
 resultado = contar_letras_y_vocales(archivo)
 if resultado:
     minusculas, mayusculas, vocales = resultado

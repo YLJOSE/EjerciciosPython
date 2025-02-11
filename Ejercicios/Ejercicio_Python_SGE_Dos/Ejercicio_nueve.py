@@ -16,3 +16,5 @@ class papeo:
             
 mi_papeo = papeo('Vegetariano')
 print(f"El precio de la comida {mi_papeo.menu} es: {mi_papeo.precio_menu()}")
+
+### examen de sergio el miercoles 26
