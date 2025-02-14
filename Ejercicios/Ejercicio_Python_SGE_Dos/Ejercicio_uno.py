@@ -14,7 +14,7 @@ def contar_palabras_aw(nombre_archivo, letra1,letra3):
         return None
 
 
-archivo = "C:/Users/ALUMNO CCC - TARDE/Desktop/AD/fichero.txt"  
+archivo = "fichero.txt"  
 resultado = contar_palabras_aw(archivo,'A','W')
 if resultado is not None:
     print(f"Número de palabras que empiezan por 'A' o 'W': {resultado}")

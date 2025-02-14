@@ -6,14 +6,14 @@ def contar_palabras_eo(nombre_archivo):
             texto = archivo.read()
             palabras = texto.split()  
             
-            contador = sum(1 for palabra in palabras if palabra.startswith(('e', 'o')))
+            contador = sum(1 for palabra in palabras if palabra.endswith(('e', 'o')))
         return contador
     except FileNotFoundError:
         print("El archivo no se encontró.")
         return None
 
 
-archivo = "texto.txt"  
+archivo = "Ejercicios\sowpods.txt"  
 resultado = contar_palabras_eo(archivo)
 if resultado is not None:
-    print(f"Número de palabras que empiezan por 'A' o 'W': {resultado}")
+    print(f"Número de palabras que terminan por 'e' o 'o': {resultado}")

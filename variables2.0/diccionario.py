@@ -18,3 +18,20 @@ print(diccionario_tres)
 diccionario_cuatro = dict.fromkeys(["nombre","apellido"], "no se")
 print(diccionario_cuatro)
 
+print("----------------------------")
+# Diccionario
+
+persona = {"nombre":"Jose","edad":"23","ciudad":"Madrid"}
+# Para acceder a los valores del diccionario se utiliza la clave correspondiente entre corchetes
+print(persona["nombre"])
+print(persona["edad"])
+print(persona["ciudad"])
+# Metodo para solo obtener el valor de la clave brindada
+print(persona.get("nombre"))
+
+# Metodos del diccionario
+print(persona.keys()) # Retorna las claves del diccionario
+print(persona.values()) # Devuelve los valores del diccionario
+print(persona.items()) # Imprime clave : valor respectivamente
+persona.update({"profesion":"desarrollador"}) # Actualiza el diccionario al final 
+print(persona) # Imprime el diccionario completo

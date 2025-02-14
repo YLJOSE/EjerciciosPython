@@ -30,4 +30,6 @@ else:
     print("el bucle termino")
 # funciona igual con las tuplas
 
+print("----------------------")
+
     
